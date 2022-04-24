@@ -1,0 +1,19 @@
+Pida iniciar sesión a un usuario.
+Primero hay que comprobar el nombre.
+Si el nombre es correcto:
+    entonces te pide la contraseña.
+    Si no te sigo preguntando por el nombre.
+Si la contraseña es correcta:
+    te digo: usuario logueado!
+    Si no te pregunto hasta 2 veces más por la contraseña como máximo.
+Si tras esos intentos no he conseguido acertar, entonces finaliza el programa escribiendo: Alerta Hackerman!
+
+Modifícalo para que:
+Nada más empezar te pregunte si quieres realizar un login o registrarte. El usuario podrá elegir la opción que quiere hacer entre esas 2.
+Si elige registro, se le preguntará nombre de usuario, contraseña y repetir contraseña (como cualquier registro típico de la web).
+Si el usuario ya existe, deberá mostrar un error por pantalla advirtiendo: "Este usuario ya existe".
+Si las contraseñas no coinciden deberá mostrar un error: "Las contraseñas no coinciden".
+La contraseña debe contener únicamente números, y tener al menos una longitud de 3.
+En caso de que no se cumplan estas condiciones deberá aparecer por pantalla: "La contraseña no cumple los requisitos".
+La aparición de un error implica comenzar el registro desde cero.
+Si elige Login, se ejecutaría la práctica anterior teniendo en cuenta a los usuarios que se hubieran podido registrar previamente.
